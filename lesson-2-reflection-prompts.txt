@@ -5,14 +5,47 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+      You can use the staging area to make sure you have one commit per logical
+      change by showing the differences between the file from the working
+      directory to the one you now have in the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+      Some situations when branches would be helpful in keeping your history
+      organized is when you would like to make an un-official update to them
+      project to see how it would run without actually affecting the official
+      version.
+
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+Diagrams help me visualize the branch structure because
+it really helps me guide where i'm creating new commits
+in new branches. I then understand how to get back to
+the master branch (which is typically the full production)
+branch if I want and go back and forth.
+
+What is the result of merging two branches together? Why do
+we represent it in the diagram the way we do?
+
+      the result of merging two branches together is taking
+      an experimental branch (it could be experimental,
+      fixing a bug, testing new functions, etc.) and
+      merging that branch with the full production
+      branch (master branch) while keeping the alterations
+      made in the 'experimental' branch and the master
+      branch. We represent it in the diagram we use
+      because it gives us a visual perspective of what's
+      actually happening to our Working Tree when we
+      merge branches.
+
+What are the pros and cons of Git's automatic merging vs.
+always doing merges manually?
+
+      I would say the pros are that you can merge an
+      experimental branch or a branch that you have
+      for a function you were working on and
+      merge it manually when the function or experimental
+      code is fucntional rather than having Git be
+      the decider of when that actually occurs.
