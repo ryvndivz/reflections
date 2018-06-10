@@ -10,3 +10,18 @@ automatically stay up-to-date with your remote repository?
       Because you yourself being the decider on when it is best to pull
       changes you may have made is always going to be better than Git and
       GitHub trying to decide when you'd like to have changes pulled.
+
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+      clone will clone a repository that someone has already created to your
+      local drive. A fork is a copy of someone's GitHub repository to your
+      github profile account and when you pull that repository to your local
+      drive it automatically creates a remote origin that you can than push
+      and pull from. a branch is simply a commit or multiple commits that you
+      can create outside of your master branch (your master branch is also a
+      branch itself) for various reasons but ultimately any changes you make
+      to your code in a branch outside of your master branch will use (or
+      start with the original code you had) and allow you to make changes (
+      additions or subtractions of lines of code) that will not effect your
+      your master branch.
