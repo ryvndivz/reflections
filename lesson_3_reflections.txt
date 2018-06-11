@@ -25,3 +25,10 @@ one instead of another?
       start with the original code you had) and allow you to make changes (
       additions or subtractions of lines of code) that will not effect your
       your master branch.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+      The benefit of having a copy of the last known state of the remote stored
+      locally is if you are offline and would like to work on it locally due
+      to not having internet.
