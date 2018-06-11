@@ -32,3 +32,10 @@ stored locally?
       The benefit of having a copy of the last known state of the remote stored
       locally is if you are offline and would like to work on it locally due
       to not having internet.
+
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+      i would have to constantly send actually files to people that wanted to
+      collaborate on my project or that i wanted to collaborate with. It would
+      be wayyyyyy easier to use Git and GitHub for me personally.
